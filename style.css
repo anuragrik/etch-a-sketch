@@ -1,0 +1,16 @@
+#container{
+  position: relative;
+  top: 30px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  height: 960px;
+  width: 960px;
+  outline: 10px solid #000;
+}
+.blocks{
+    outline: 1px solid black;
+}
+.color-changer{
+    background-color: black;
+}
