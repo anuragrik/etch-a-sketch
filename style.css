@@ -14,3 +14,40 @@
 .color-changer{
     background-color: black;
 }
+.color-remover{
+  background-color: transparent;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+  font-family:'Roboto', sans-serif;
+  color: #457b9d;
+  background-color: blanchedalmond;
+  padding: 15px;
+}
+
+.main-content{
+  display: flex;
+  justify-content: center;
+}
+.op-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+  padding: 10px;
+}
+button{
+  height: auto;
+  width: auto;
+  border-radius: 3px;
+  background-color: aquamarine;
+  font-size: 60px;
+}
