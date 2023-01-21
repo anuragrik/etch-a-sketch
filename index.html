@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Etch-a-sketch</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <script src="script.js" defer></script>
-
-    <div class="text">Etch A Sketch</div>
-
-    <div class="main-content">
-        <div id="container"></div>
+    <div class="head">
+        <h1>Etch - a - sketch</h1>
     </div>
-    
-    <div class="op-buttons">
-        <button class="reset-button">Reset</button>
-        <button class="reset-color">Clear</button>
+    <div class="parent-container">
+        <div class="option-container">
+            <input id="color-chose" type="color" value="#000000">
+            <button id="choser">Chose Color</button>
+            <button id="multi">Multicolor</button>
+            <button id="eraser">Eraser</button>
+            <button id="clearer">Clear</button>
+            <div class="inputting">
+                    <input type="range" min="1" max="64" value="16" id="slider">
+                    <div id="slider-val">16</div>
+            </div>
+        </div>
+        <div id="box-container">
+
+        </div>
     </div>
-    
+    <script src="index.js"></script>
 </body>
 </html>
-
